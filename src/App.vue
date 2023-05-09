@@ -16,8 +16,11 @@ export default{
 </script>
 
 <template>
-
+<Header/>
 </template>
 
 <style lang="scss">
+@import './scss/main';
+
+
 </style>

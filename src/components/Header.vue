@@ -12,8 +12,10 @@ export default {
                 <img src="../assets/img/avada-music-logo.png" alt="">
             </div>
             <div class="cont-offcanvas text-white">
-                                                        <!-- QUI BISOGNA CREARE L'OFF-CANVAS -->
-                <span class="fs-2">CIAO</span>  
+                <!-- QUI BISOGNA CREARE L'OFF-CANVAS -->
+                <span class="fs-2">
+                    <i class="fa-solid fa-bars"></i>
+                </span>  
             </div>
         </div>
     </header>
@@ -23,11 +25,11 @@ export default {
 @use '../scss/main' as *;
 
 .container-header{
+    position: fixed;
+    z-index: 999;
     height: 90px;
     width: 100%;
-    background-color: $terziary-color;
-    img{
-        width: 65%;
-    }
+    background-color: transparent;
+
 }
 </style>

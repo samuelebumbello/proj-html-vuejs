@@ -17,6 +17,9 @@ export default{
 
 <template>
 <Header/>
+<Jumbotron/>
+<Main/>
+<Footer/>
 </template>
 
 <style lang="scss">

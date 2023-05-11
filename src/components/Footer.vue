@@ -51,13 +51,10 @@ export default{
             a{
                 margin: 12px;
                 padding: 0;
-
-                a:focus{
-                    color: $secondary-color;
-                }
+                
             }
         }
     }
-
 }
+
 </style>

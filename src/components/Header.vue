@@ -13,12 +13,15 @@ export default {
             </div>
             <div class="cont-offcanvas text-white">
                 <span class="fs-2">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalMenu">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                </span>  
+                </span> 
+            </div>
+        </div>
+    </header>
 
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalMenu" tabindex="-1" aria-labelledby="modalMenuLabel" aria-hidden="true">
                     <div class="modal-dialog modal-fullscreen">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -59,11 +62,7 @@ export default {
 
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </div>
-    </header>
+                </div> 
 </template>
 
 <style lang="scss" scoped>

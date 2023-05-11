@@ -6,21 +6,84 @@ export default{
 
 <template>
     <main>
-        <div class="separator"></div>
         <div class="cont">
-            <div class="cont-text  d-flex flex-column justify-content-center align-items-center">
+            <div class="separator mb-5"></div>
+            <div class="cont-text d-flex flex-column justify-content-center align-items-center">
                 <h1 class="text-white fw-bold">Music Is Life</h1>
                 <div class="linee m-4"></div>
-                <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
+                <p class="p-sec text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
             </div>
         </div>
         <div class="cont-main">
             <div class="cont-text  d-flex flex-column justify-content-center align-items-center">
                 <h1 class="text-white fw-bold">Latest Band News</h1>
                 <div class="linee m-4"></div>
-                <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
+                <p class="p-sec text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
             </div>
+            
+            <!-- CARDS -->
+            <div class="container-fluid-fix">
+                <div class="grid-container">
+
+                    <div class="card card_1">
+                        <img class="d-block" src="../assets/img/blog_music_techo-1200x600.jpg" alt="">
+                        <div class="content">
+                            <h3>Technology and music</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum sit amet semp turpis sit amet semp turpis..</p>
+                        </div>
+                    </div>
+
+                    <div class="card card_2">
+                        <img class="d-block" src="../assets/img/blog-post1-600x900.jpg" alt="">
+                        <div class="content">
+                            <h3>Taking it back to the old school</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="card card_3">
+                        <img class="d-block" src="../assets/img/blog-post3-600x900.jpg" alt="">
+                        <div class="content">
+                            <h3>While my guitar gently weeps</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="card card_4">
+                        <img class="d-block" src="../assets/img/blog-post4-600x900.jpg" alt="">
+                        <div class="content">
+                            <h3>It just sounds better</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="card card_5">
+                        <img class="d-block" src="../assets/img/blog-post2-600x900.jpg" alt="">
+                        <div class="content">
+                            <h3>Sharing the stage with a legend</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum</p>
+                        </div>
+                    </div>
+
+                    <div class="card card_6">
+                        <img class="d-block" src="../assets/img/blog_flavor_rock-1200x600.jpg" alt="">
+                        <div class="content">
+                            <h3>The flavor of rock</h3>
+                            <p class="text-secondary m-0">Sed sit amet semp turpis. Curabitur curcsus lacinia est at interdum risus id condimentum</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- FINE CARDS -->
         </div>
+        
+
+
+
+
+
+
         <div class="news-container d-flex justify-content-center align-items-center">
             <div class="news-text">
                 <a class="fw-bold" href="">VIEW ALL LATEST NEWS</a>
@@ -52,64 +115,8 @@ export default{
                 <div class="cont-text  d-flex flex-column justify-content-center align-items-center">
                     <h1 class="text-white fw-bold">Live Dates</h1>
                     <div class="linee m-4"></div>
-                    <p class="text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
+                    <p class=" text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laboriosam error perspiciatis cumque! Illo vel, delectus laudantium repudiandae natus consequatur!</p>
                 </div>
-
-<!-- ACCORDION -->
-
-                <!-- <div class="accordion accordion-flush d-flex justify-content-center align-items-center flex-column" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                <i class="fa-solid fa-plus text-white me-4"></i>
-                                17/08/2020 GEM FESTIVAL 2020 ANAKALIA, GEORGIA
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body d-flex justify-content-between">
-                                <div class="left-body">
-                                    <img src="https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=45.47688&lon=9.22656&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*" alt="">
-                                </div>
-                                <div class="right-body d-flex justify-content-between flex-column">
-                                    <h4 class="text-white pt-4">Untold Stories</h4>
-                                    <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo harum neque iste dolores molestias perspiciatis maiores. Repellendus est eaque reiciendis voluptatum saepe a quia sequi id, quod voluptatibus! Repellat, veniam!</p>
-                                    <div class="btn-body">
-                                        <button class="fw-bold">
-                                            <a href="">BOOK NOW</a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                <i class="fa-solid fa-plus text-white me-4"></i>
-                                17/08/2020 GEM FESTIVAL 2020 ANAKALIA, GEORGIA
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body d-flex justify-content-between">
-                                <div class="left-body">
-                                    <img src="https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=45.47688&lon=9.22656&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*" alt="">
-                                </div>
-                                <div class="right-body d-flex justify-content-between flex-column">
-                                    <h4 class="text-white pt-4">Untold Stories</h4>
-                                    <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo harum neque iste dolores molestias perspiciatis maiores. Repellendus est eaque reiciendis voluptatum saepe a quia sequi id, quod voluptatibus! Repellat, veniam!</p>
-                                    <div class="btn-body">
-                                        <button class="fw-bold">
-                                            <a href="">BOOK NOW</a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
- 
-                    
-                </div> -->
               
                 <div class="accordion accordion-flush d-flex justify-content-center align-items-center flex-column" id="accordionFlushExample">
 
@@ -257,18 +264,78 @@ export default{
 <style lang="scss" scoped>
 @use '../scss/main' as *;
 
+.container-fluid-fix {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .cont{
     background-color: $terziary-color;
     width: 100%;
-    padding: 70px;
+    padding: 0px 70px 70px;
 }
+
 .cont-main{
     padding-top: 70px;
-    height: 1000px;
     width: 100%;
     background-color: $quaternary-color;
 
 }
+// CARDS //
+
+.card_1 { grid-area: foto1; }
+.card_2 { grid-area: foto2; }
+.card_3 { grid-area: foto3; }
+.card_4 { grid-area: foto4; }
+.card_5 { grid-area: foto5; }
+.card_6 { grid-area: foto6; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'foto1	foto1	foto1   foto1	foto2	foto2 '
+    'foto3	foto3	foto4   foto4	foto2	foto2 '
+    'foto3	foto3	foto4   foto4	foto5	foto5 '
+    'foto6	foto6	foto6   foto6	foto5	foto5 ';
+  gap: 30px;
+  padding: 30px;
+}
+
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    place-content: center;
+    gap: 2rem;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    border: none;
+}
+.card{
+    position: relative;
+    border: none;
+    background-color: $quaternary-color;
+    img{
+        object-fit: cover;
+    }
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: $terziary-color;
+    width: 100%;
+    h3{
+        font-weight: bold;
+        font-size: 17px;
+        color: $primary-color;
+        line-height: 1.3rem;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+
 .separator{
     margin: auto;
     width: 30%;
@@ -278,13 +345,13 @@ export default{
     width: 20%;
     border: 1px solid #7d7b8d25;
 }
-.text-white{
-    font-size: 70px;
-}
-.text-secondary{
-    width: 850px;
-}
-
+    .text-white{
+        font-size: 70px;
+    }
+    .p-sec{
+        width: 850px;
+    }
+    
 .news-container{
     width: 100%;
     height: 160px;

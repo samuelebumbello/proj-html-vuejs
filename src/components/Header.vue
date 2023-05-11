@@ -12,10 +12,55 @@ export default {
                 <img src="../assets/img/avada-music-logo.png" alt="">
             </div>
             <div class="cont-offcanvas text-white">
-                <!-- QUI BISOGNA CREARE L'OFF-CANVAS -->
                 <span class="fs-2">
-                    <i class="fa-solid fa-bars"></i>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </span>  
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center flex-column align-items-center">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="">Home</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="">Meet The Band</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="">Live Dates</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="">Latest News</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="">Albumbs</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="">Fans</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
@@ -32,4 +77,39 @@ export default {
     background-color: transparent;
 
 }
+
+.btn-primary{
+    background-color: transparent;
+    border: 0;
+    font-size: 32px;
+    --bs-btn-active-bg: ;
+    --bs-btn-active-border-color: ;
+    &:hover{
+        background-color: transparent;
+        border: 0;
+    }
+
+}
+.modal-header{
+    border: 0;
+}
+.modal-content{
+    background-color: $primary-color;
+}
+
+.modal-body{
+    ul{
+        margin-bottom: 36px;
+        li{
+            font-size: 37px;
+            list-style: none;
+            a{
+                color: rgb(177, 177, 177);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
 </style>

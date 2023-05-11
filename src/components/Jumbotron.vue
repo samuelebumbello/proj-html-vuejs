@@ -5,7 +5,7 @@ export default{
 </script>
 
 <template>
-    <div class="jumbotron">
+    <div class="jumbotron d-flex justify-content-center align-items-center">
         <div class="cont-jumbo d-flex justify-content-center">
             <div class="cont-text-jumbo d-flex flex-column align-items-center justify-content-center py-5">
                 <h1 class="text-white fw-bold">Untold Stories</h1>
@@ -31,7 +31,7 @@ export default{
 
 .cont-text-jumbo{
     h1{
-        font-size: 160px;
+        font-size: 150px;
     }
     h4{
         font-size: 1.8rem;
